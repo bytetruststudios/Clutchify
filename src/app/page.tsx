@@ -160,27 +160,27 @@ export default function GamingLoungeLanding() {
               {
                 title: 'PC Gaming Arena',
                 description: 'High-end rigs for competitive play. Dive into Counter-Strike, Valorant, and more.',
-                img: '/images/pc-gaming.jpg',
+                img: '/images/pc_gaming.jpg',
               },
               {
                 title: 'PS5 Lounge',
                 description: 'Unmatched console gaming with the latest PS5 titles, including FIFA and WWE.',
-                img: '/images/ps5-setup.jpg',
+                img: '/images/ps5.jpg',
               },
               {
                 title: 'F1 Simulator',
                 description: 'Feel the G-forces and master the tracks with our hyper-realistic Formula 1 simulator.',
-                img: '/images/f1-simulator.jpg',
+                img: '/images/f1_sim.jpg',
               },
               {
                 title: 'Car Arcade Games',
                 description: 'Get behind the wheel for high-octane fun with our popular car racing arcade games.',
-                img: '/images/car-arcade.jpg',
+                img: '/images/racing_sim.jpg',
               },
               {
                 title: 'MotoGP Simulator',
                 description: 'Lean into the turns and feel the rush of the track with our authentic MotoGP simulator.',
-                img: '/images/motogp-simulator.jpg',
+                img: '/images/motogp.jpg',
               },
             ].map((service, i) => (
               <Card
