@@ -4,17 +4,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import {
   Gamepad2,
-  Monitor,
-  Headphones,
   Trophy,
   User,
   Ticket,
   MapPin,
-  MessageSquare,
   Users,
   Star,
-  Joystick,
-  Laptop,
   Mail,
   Phone,
 } from 'lucide-react';
@@ -146,7 +141,7 @@ export default function GamingLoungeLanding() {
             About Clutchify
           </h2>
           <p className="mt-4 text-slate-400 max-w-3xl mx-auto">
-            Clutchify is more than just a gaming center; it's a community built for gamers, by gamers. We provide a state-of-the-art environment with top-tier hardware, from high-performance PCs for e-sports to the latest consoles and immersive simulators. Our mission is to create a space where players of all levels can connect, compete, and have fun.
+            Clutchify is more than just a gaming center; it&apos;s a community built for gamers, by gamers. We provide a state-of-the-art environment with top-tier hardware, from high-performance PCs for e-sports to the latest consoles and immersive simulators. Our mission is to create a space where players of all levels can connect, compete, and have fun.
           </p>
         </div>
       </section>
@@ -165,27 +160,27 @@ export default function GamingLoungeLanding() {
               {
                 title: 'PC Gaming Arena',
                 description: 'High-end rigs for competitive play. Dive into Counter-Strike, Valorant, and more.',
-                img: '/images/pc_gaming.jpg',
+                img: '/images/pc-gaming.jpg',
               },
               {
                 title: 'PS5 Lounge',
                 description: 'Unmatched console gaming with the latest PS5 titles, including FIFA and WWE.',
-                img: '/images/ps5.jpg',
+                img: '/images/ps5-setup.jpg',
               },
               {
                 title: 'F1 Simulator',
                 description: 'Feel the G-forces and master the tracks with our hyper-realistic Formula 1 simulator.',
-                img: '/images/f1_sim.jpg',
+                img: '/images/f1-simulator.jpg',
               },
               {
                 title: 'Car Arcade Games',
                 description: 'Get behind the wheel for high-octane fun with our popular car racing arcade games.',
-                img: '/images/racing_sim.jpg',
+                img: '/images/car-arcade.jpg',
               },
               {
                 title: 'MotoGP Simulator',
                 description: 'Lean into the turns and feel the rush of the track with our authentic MotoGP simulator.',
-                img: '/images/motogp.jpg',
+                img: '/images/motogp-simulator.jpg',
               },
             ].map((service, i) => (
               <Card
@@ -263,7 +258,7 @@ export default function GamingLoungeLanding() {
           <div className="mt-10 overflow-x-auto">
             <div className="grid auto-cols-[minmax(300px,1fr)] grid-flow-col gap-4 pr-6">
               {[
-                { q: "The PC rigs are insane! Super fast, no lag. Best gaming center I've been to.", a: '— Mark R., Competitive Gamer' },
+                { q: "The PC rigs are insane! Super fast, no lag. Best gaming center I&apos;ve been to.", a: '— Mark R., Competitive Gamer' },
                 { q: "I love the simulators—it feels so real! A must-try for any racing fan.", a: '— Alex D., F1 Enthusiast' },
                 { q: "Perfect spot for a night out with friends. The PS5 lounge is top-notch.", a: '— Sarah P., Console Player' },
               ].map((t, i) => (
@@ -291,7 +286,7 @@ export default function GamingLoungeLanding() {
             Get in Touch
           </h2>
           <p className="mt-4 text-center text-slate-400 max-w-2xl mx-auto">
-            Have questions? We're here to help. Contact us to learn more about our services, tournaments, and events.
+            Have questions? We&apos;re here to help. Contact us to learn more about our services, tournaments, and events.
           </p>
           <div className="mt-12 grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <Card className="bg-zinc-800/60 border-zinc-700/60 p-6 flex items-center gap-4">
